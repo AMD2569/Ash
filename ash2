@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    int rim;
+    printf("Enter the number");
+    scanf("%d",&a);
+    while (a>0)
+    {
+        rim=a%10;
+        printf("%d",rim);
+        a=a/10;
+    }
+}
